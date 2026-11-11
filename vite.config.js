@@ -38,7 +38,7 @@ export default defineConfig({
     sourcemap: true,
     minify: 'oxc',
     cssMinify: 'lightningcss',
-    rollupOptions: {
+    rolldownOptions: {
       input: {
         index: `${import.meta.dirname}/index.html`,
         about: `${import.meta.dirname}/src/pages/about/index.html`,
